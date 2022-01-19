@@ -14,7 +14,6 @@ console.log(bankArray);
 //Part 3. It turns out David was saving a spot for his friend Renata. She shows up and goes behind him in the line. One more person (Elena) shows up and goes to the end of the line. What does the queue look like?
 
 bankArray.shift();
-bankArray.shift();
 bankArray.unshift("Renata");
 bankArray.unshift("David");
 bankArray.push("Elena");
